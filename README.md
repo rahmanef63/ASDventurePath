@@ -64,7 +64,7 @@ AI-powered web platform to assist parents in tracking and improving the developm
 
 ## 📁 Project Structure
 ```
-src/
+./
 |-- app/
 |   |-- (routes)/
 |       |-- dashboard/
