@@ -3,6 +3,8 @@ import { Inter } from "next/font/google";
 import "./globals.css";
 import { ThemeProvider } from "@/components/providers/theme-provider";
 import { Navigation } from "@/components/layout/navigation";
+import { Suspense } from "react";
+import Loading from "./loading";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -27,7 +29,9 @@ export default function RootLayout({
         >
           <Navigation />
           <main className="min-h-screen bg-background">
-            {children}
+            <Suspense fallback={<Loading />}>
+              {children}
+            </Suspense>
           </main>
         </ThemeProvider>
       </body>
