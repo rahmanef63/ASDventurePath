@@ -1,181 +1,36 @@
-# Autism Care - Platform Pemantauan Perkembangan Anak dengan Autisme
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## 📋 Status Proyek
-![Status](https://img.shields.io/badge/Status-Development-yellow)
-![Versi](https://img.shields.io/badge/Versi-1.0.0-blue)
+## Getting Started
 
-## 🎯 Tujuan Proyek
-Platform web berbasis AI untuk membantu orang tua melacak dan meningkatkan perkembangan anak dengan autisme.
+First, run the development server:
 
-## 👥 Pengguna Target
-- **Primer:** Orang tua/wali anak dengan autisme
-- **Sekunder:** Terapis, pengasuh, pendidik, profesional medis
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
 
-## ⭐ Fitur Utama
-### 1. Dashboard Personal [`STATUS: PLANNED`]
-- [ ] Grafik interaktif perkembangan
-- [ ] Visualisasi data kemajuan
-- [ ] Pelacakan tonggak perkembangan
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-### 2. Pelacak Perilaku [`STATUS: IN PROGRESS`]
-- [ ] Pencatatan perilaku real-time
-- [ ] Analisis pola berbasis AI
-- [ ] Sistem peringatan otomatis
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
 
-### 3. Rekomendasi AI [`STATUS: PLANNED`]
-- [ ] Saran aktivitas personal
-- [ ] Model machine learning transparan
-- [ ] Sistem explainable AI
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
 
-### 4. Forum Komunitas [`STATUS: PLANNED`]
-- [ ] Ruang diskusi termoderasi
-- [ ] Sistem pesan pribadi
-- [ ] Grup diskusi tematik
+## Learn More
 
-### 5. Fitur Pendukung [`STATUS: PLANNED`]
-- [ ] Perpustakaan pembelajaran
-- [ ] Sistem notifikasi
-- [ ] Dukungan multi-bahasa
-- [ ] Fitur aksesibilitas WCAG
+To learn more about Next.js, take a look at the following resources:
 
-## 🛠 Tech Stack
-### Frontend
-- Next.js (Latest Stable)
-- Tailwind CSS
-- Redux Toolkit
-- React Query
-- ShadCN/UI & Radix UI
-- next-i18next
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
 
-### Backend
-- Node.js + Express.js
-- PostgreSQL + Prisma
-- NextAuth.js
-- Socket.io
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
 
-### AI Integration
-- PyTorch
-- OpenAI API
+## Deploy on Vercel
 
-### DevOps
-- GitHub Actions
-- Docker + Kubernetes
-- Terraform
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-## 📁 Struktur Proyek
-src/
-|-- app/
-|   |-- (routes)/
-|       |-- dashboard/
-|           |-- page.tsx
-|           |-- components/
-|               |-- ProgressChart.tsx
-|               |-- BehaviorTable.tsx
-|       |-- login/
-|           |-- page.tsx
-|       |-- community/
-|           |-- page.tsx
-|           |-- components/
-|               |-- PostList.tsx
-|               |-- PostForm.tsx
-|-- components/
-|   |-- UI/
-|       |-- Button.tsx
-|       |-- Card.tsx
-|   |-- Layout/
-|       |-- Header.tsx
-|       |-- Footer.tsx
-|   |-- Forms/
-|       |-- LoginForm.tsx
-|       |-- BehaviorLogForm.tsx
-|-- hooks/
-|   |-- useAuth.ts
-|   |-- useFetch.ts
-|-- context/
-|   |-- AuthContext.tsx
-|   |-- ThemeContext.tsx
-|-- lib/
-|   |-- api/
-|       |-- auth.ts
-|       |-- user.ts
-|       |-- behavior.ts
-|   |-- utils/
-|       |-- helpers.ts
-|       |-- validators.ts
-|-- constants/
-|   |-- routes.ts
-|   |-- apiEndpoints.ts
-|-- types/
-|   |-- user.d.ts
-|   |-- behavior.d.ts
-|-- tests/
-|   |-- components/
-|   |-- pages/
-|-- public/
-|   |-- images/
-|   |-- icons/
-|   |-- locales/
-|-- styles/
-|   |-- globals.css
-|   |-- tailwind.css
-|-- middleware/
-|   |-- authMiddleware.ts
-|-- i18n/
-|   |-- en/
-|   |-- es/
-|   |-- fr/
-
-
-
-## 🎯 Milestone & Progress
-
-### Fase 1: Riset & Perencanaan (3 minggu)
-- [x] Analisis kebutuhan
-- [ ] Kerangka privasi data
-- [ ] Roadmap detail
-
-### Fase 2: Prototipe (4 minggu)
-- [ ] Prototipe interaktif
-- [ ] Setup development
-- [ ] Validasi stakeholder
-
-### Fase 3: MVP (8 minggu)
-- [ ] Fitur inti
-- [ ] Backend API
-- [ ] Integrasi AI dasar
-
-### Fase 4-6: Pengembangan Lanjutan (10+ minggu)
-- [ ] AI enhancement
-- [ ] Testing
-- [ ] Deployment
-- [ ] Maintenance
-
-## 📊 Metrik Kesuksesan
-| Metrik | Target | Status |
-|--------|---------|--------|
-| Retensi Pengguna | 60% (6 bulan) | 🟡 Pending |
-| Feedback AI | 85% positif | 🟡 Pending |
-| Pengurangan Manual | 50% | 🟡 Pending |
-| Uptime | 99.9% | 🟡 Pending |
-
-## 🔒 Keamanan & Kepatuhan
-- [ ] GDPR Compliance
-- [ ] HIPAA Compliance
-- [ ] Enkripsi End-to-end
-- [ ] MFA Implementation
-
-## 📝 Dokumentasi
-- [Setup Lokal](docs/setup.md)
-- [Panduan Kontribusi](docs/contributing.md)
-- [API Docs](docs/api.md)
-
-## 🤝 Tim & Kontribusi
-- UI/UX Team: Progress [===>     ] 30%
-- Backend Team: Progress [===>     ] 30%
-- AI/ML Team: Progress [=>        ] 10%
-- DevOps Team: Progress [==>      ] 20%
-
-## 📫 Kontak
-- Project Manager: [rahmanef63@gmail.com]
-- Technical Lead: [rahmanef63@gmail.com]
-
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
