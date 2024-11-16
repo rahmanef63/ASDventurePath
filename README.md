@@ -1,42 +1,42 @@
-# Autism Care - Platform Pemantauan Perkembangan Anak dengan Autisme
+# Autism Care - Monitoring Platform for Children with Autism Development
 
-## 📋 Status Proyek
+## 📋 Project Status
 ![Status](https://img.shields.io/badge/Status-Development-yellow)
-![Versi](https://img.shields.io/badge/Versi-1.0.0-blue)
+![Version](https://img.shields.io/badge/Version-1.0.0-blue)
 
-## 🎯 Tujuan Proyek
-Platform web berbasis AI untuk membantu orang tua melacak dan meningkatkan perkembangan anak dengan autisme.
+## 🎯 Project Goals
+AI-powered web platform to assist parents in tracking and improving the development of children with autism.
 
-## 👥 Pengguna Target
-- **Primer:** Orang tua/wali anak dengan autisme
-- **Sekunder:** Terapis, pengasuh, pendidik, profesional medis
+## 👥 Target Users
+- **Primary:** Parents/guardians of children with autism
+- **Secondary:** Therapists, caregivers, educators, medical professionals
 
-## ⭐ Fitur Utama
-### 1. Dashboard Personal [`STATUS: PLANNED`]
-- [ ] Grafik interaktif perkembangan
-- [ ] Visualisasi data kemajuan
-- [ ] Pelacakan tonggak perkembangan
+## ⭐ Key Features
+### 1. Personal Dashboard [`STATUS: PLANNED`]
+- [ ] Interactive progress charts
+- [ ] Progress data visualization
+- [ ] Developmental milestone tracking
 
-### 2. Pelacak Perilaku [`STATUS: IN PROGRESS`]
-- [ ] Pencatatan perilaku real-time
-- [ ] Analisis pola berbasis AI
-- [ ] Sistem peringatan otomatis
+### 2. Behavior Tracker [`STATUS: IN PROGRESS`]
+- [ ] Real-time behavior logging
+- [ ] AI-based pattern analysis
+- [ ] Automated alert system
 
-### 3. Rekomendasi AI [`STATUS: PLANNED`]
-- [ ] Saran aktivitas personal
-- [ ] Model machine learning transparan
-- [ ] Sistem explainable AI
+### 3. AI Recommendations [`STATUS: PLANNED`]
+- [ ] Personalized activity suggestions
+- [ ] Transparent machine learning models
+- [ ] Explainable AI system
 
-### 4. Forum Komunitas [`STATUS: PLANNED`]
-- [ ] Ruang diskusi termoderasi
-- [ ] Sistem pesan pribadi
-- [ ] Grup diskusi tematik
+### 4. Community Forum [`STATUS: PLANNED`]
+- [ ] Moderated discussion space
+- [ ] Private messaging system
+- [ ] Thematic discussion groups
 
-### 5. Fitur Pendukung [`STATUS: PLANNED`]
-- [ ] Perpustakaan pembelajaran
-- [ ] Sistem notifikasi
-- [ ] Dukungan multi-bahasa
-- [ ] Fitur aksesibilitas WCAG
+### 5. Supporting Features [`STATUS: PLANNED`]
+- [ ] Learning library
+- [ ] Notification system
+- [ ] Multi-language support
+- [ ] WCAG accessibility features
 
 ## 🛠 Tech Stack
 ### Frontend
@@ -62,7 +62,7 @@ Platform web berbasis AI untuk membantu orang tua melacak dan meningkatkan perke
 - Docker + Kubernetes
 - Terraform
 
-## 📁 Struktur Proyek
+## 📁 Project Structure
 ```
 src/
 |-- app/
@@ -125,58 +125,58 @@ src/
 |   |-- en/
 |   |-- es/
 |   |-- fr/
+
 ```
 
 
-## 🎯 Milestone & Progress
+## 🎯 Milestones & Progress
 
-### Fase 1: Riset & Perencanaan (3 minggu)
-- [x] Analisis kebutuhan
-- [ ] Kerangka privasi data
-- [ ] Roadmap detail
+### Phase 1: Research & Planning (3 weeks)
+- [x] Needs analysis
+- [ ] Data privacy framework
+- [ ] Detailed roadmap
 
-### Fase 2: Prototipe (4 minggu)
-- [ ] Prototipe interaktif
-- [ ] Setup development
-- [ ] Validasi stakeholder
+### Phase 2: Prototype (4 weeks)
+- [ ] Interactive prototype
+- [ ] Development setup
+- [ ] Stakeholder validation
 
-### Fase 3: MVP (8 minggu)
-- [ ] Fitur inti
+### Phase 3: MVP (8 weeks)
+- [ ] Core features
 - [ ] Backend API
-- [ ] Integrasi AI dasar
+- [ ] Basic AI integration
 
-### Fase 4-6: Pengembangan Lanjutan (10+ minggu)
+### Phase 4-6: Advanced Development (10+ weeks)
 - [ ] AI enhancement
 - [ ] Testing
 - [ ] Deployment
 - [ ] Maintenance
 
-## 📊 Metrik Kesuksesan
-| Metrik | Target | Status |
-|--------|---------|--------|
-| Retensi Pengguna | 60% (6 bulan) | 🟡 Pending |
-| Feedback AI | 85% positif | 🟡 Pending |
-| Pengurangan Manual | 50% | 🟡 Pending |
-| Uptime | 99.9% | 🟡 Pending |
+## 📊 Success Metrics
+| Metric              | Target            | Status       |
+|---------------------|-------------------|--------------|
+| User Retention      | 60% (6 months)   | 🟡 Pending   |
+| AI Feedback         | 85% positive     | 🟡 Pending   |
+| Manual Reduction    | 50%              | 🟡 Pending   |
+| Uptime              | 99.9%            | 🟡 Pending   |
 
-## 🔒 Keamanan & Kepatuhan
+## 🔒 Security & Compliance
 - [ ] GDPR Compliance
 - [ ] HIPAA Compliance
-- [ ] Enkripsi End-to-end
+- [ ] End-to-end encryption
 - [ ] MFA Implementation
 
-## 📝 Dokumentasi
-- [Setup Lokal](docs/setup.md)
-- [Panduan Kontribusi](docs/contributing.md)
+## 📝 Documentation
+- [Local Setup](docs/setup.md)
+- [Contribution Guide](docs/contributing.md)
 - [API Docs](docs/api.md)
 
-## 🤝 Tim & Kontribusi
+## 🤝 Team & Contribution
 - UI/UX Team: Progress [===>     ] 30%
 - Backend Team: Progress [===>     ] 30%
 - AI/ML Team: Progress [=>        ] 10%
 - DevOps Team: Progress [==>      ] 20%
 
-## 📫 Kontak
+## 📫 Contact
 - Project Manager: [rahmanef63@gmail.com]
 - Technical Lead: [rahmanef63@gmail.com]
-
